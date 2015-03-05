@@ -1,0 +1,8 @@
+Cel przedmiotu:
+Wprowadzenie do programowania proceduralnego. Jêzyk C. Narzêdzia i techniki programowania.
+
+Treœci kszta³cenia:
+Programowanie w jêzyku C: sk³adnia jêzyka, budowa programu, biblioteka standardowa, techniki projektowaniaprogramu w jêzyku proceduralnym. Styl programowania. Zarz¹dzanie kodem Ÿród³owym: podzia³ kodu na wieleplików, make. Narzêdzia wspomagaj¹ce zarz¹dzanie wersjami (cvs,svn). Proces tworzenia oprogramowania (w ma³ej skali): analiza zadania, specyfikacja wymagañ, projekt programu, implementacja, uruchamianie i testowanie,wdro¿enie, konserwacja.
+
+Bibliografia:
+1. B. Kernighan, D. Ritchie Jezyk ANSI C, WNT
