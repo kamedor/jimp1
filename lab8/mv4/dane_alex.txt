@@ -1,0 +1,7 @@
+  
+  ( text )
+  { 593}
+  cos()
+  //komentarz
+  text
+  break

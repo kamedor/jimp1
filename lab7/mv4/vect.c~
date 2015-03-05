@@ -1,0 +1,31 @@
+#include "vect.h"
+
+#include <stdlib.h>
+
+vect_t dodaj_do_wektora( vect_t l, int n ){
+  // dopisuje nowy element na koniec listy l
+  // nowy element przechowuje n (jego nmbr == n)
+        if( l == NULL ) {
+                vect_t l= malloc( sizeof *l );
+                l->akt_elem= 0;
+                l->max_elem= 2;
+		l->elem=(*int)malloc(l->max_elem*sizeof(l->elem));
+                return l;
+        } else if(l->akt_elem >= l->max_elem) {
+                int *tmp=l;
+		l->max_elem *= 2;
+		tmp=(*int)realloc(l->elem, l->max_elem*sizeof(tmp->elem));
+        	l=tmp;
+	}
+	l->elem[l->akt_elem] = n;
+	return l;
+}
+
+
+typedef struct e {
+        int akt_elem;
+	int max_elem;
+	int *elem; 
+} * vect_t;
+
+

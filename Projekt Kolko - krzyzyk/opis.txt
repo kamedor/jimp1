@@ -1,0 +1,8 @@
+Program pozwala na grê w kó³ko-krzy¿yk na planszy 3x3.
+Program wyœwietla siê w terminalu tekstowym.
+W grze uczestniczy gracz i komputer.
+Komputer zawsze wygrywa(lub przynajmniej remisuje) - samodzielnie napisa³em ten algortym widoczny w pliku Ÿród³owym. 
+Gracz ma mo¿liwoœæ wybrania kto zaczyna.
+Kolejne ruchy wyœwietlaj¹ siê na planszy znajduj¹cej siê najni¿ej na terminalu.
+Po zakoñczonej grze program pyta czy chcesz zagraæ ponownie.
+Program powsta³ na inne zajêcia, ale jak wszystkie pozosta³e jest napisany w C, wiêc siê tu znalaz³.

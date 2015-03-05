@@ -1,0 +1,4 @@
+cc -c vect.c
+cc -c skorowidz.c
+cc -c indx4.c
+cc indx4.o vect.o skorowidz.o -ggdb
